@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module RandomData
   module Numbers
     #n can be an Integer or a Range.  If it is an Integer, it just returns a random

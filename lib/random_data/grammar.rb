@@ -1,19 +1,20 @@
+# encoding: utf-8
 
 module RandomData
-  
+
   # Defines methods for the generation of random data based on a supplied grammar.
-  
+
   module Grammar
-  
+
     # Returns simple sentences based on a supplied grammar, which must be a hash, the
-    # keys of which are symbols.  The values are either an array of successive values or a grammar 
-    # (i.e, hash with symbols as keys, and hashes or arrays as values.  The arrays contain symbols 
+    # keys of which are symbols.  The values are either an array of successive values or a grammar
+    # (i.e, hash with symbols as keys, and hashes or arrays as values.  The arrays contain symbols
     # referencing the keys in the present grammar, or strings to be output. The keys are always symbols.
     #
     # Example:
     # Random.grammatical_construct({:story => [:man, " bites ", :dog], :man => { :bob => "Bob"}, :dog => {:a =>"Rex", :b =>"Rover"}}, :story)
     # => "Bob bites Rover"
-    
+
     def grammatical_construct(grammar, what=nil)
       output = ""
       if what.nil?

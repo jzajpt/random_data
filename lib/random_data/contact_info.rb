@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module RandomData
   # Methods for randomly generating contact data like phone numbers and e-mail addresses
   

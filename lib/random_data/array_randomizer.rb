@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # Extends the Array class with a function used to randomly choose elements.  Note that if you are using Rails, ActiveSupport recently was updated to include a similar
 # function.  This code checks for the presence of that method and does not try to replace it.  They work the same though so no worries.
 

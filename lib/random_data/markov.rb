@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # Methods to create a markov chain from some input text.
 
 

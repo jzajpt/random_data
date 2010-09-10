@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module RandomData
 
   # Methods to create realistic-looking names

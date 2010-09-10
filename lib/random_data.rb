@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 dir = "#{File.dirname(__FILE__)}/random_data"
 
 require "#{dir}/array_randomizer"
